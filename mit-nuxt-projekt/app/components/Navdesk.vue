@@ -1,10 +1,38 @@
 <template>
-  <nav class="nav">
-    <NuxtLink to="/menu">Menu</NuxtLink>
-    <NuxtLink to="/om-os">Om os</NuxtLink>
-    <NuxtLink to="/kontakt">Kontakt</NuxtLink>
-    <NuxtLink to="/login">Opret Bruger</NuxtLink>
-  </nav>
+  <header>
+    <nav aria-label="Hovednavigation">
+      <ul class="nav-list">
+        <li>
+          <NuxtLink to="/menu">Menu</NuxtLink>
+        </li>
+        <li>
+          <NuxtLink to="/om-os">Om os</NuxtLink>
+        </li>
+        <li>
+          <NuxtLink to="/kontakt">Kontakt</NuxtLink>
+        </li>
+        <li>
+          <NuxtLink to="/login">Login/</NuxtLink>
 
-  <NuxtPage />
+          <NuxtLink to="/opret-bruger">Opret 👤</NuxtLink>
+        </li>
+      </ul>
+    </nav>
+  </header>
 </template>
+
+<style scoped>
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  gap: 4rem;
+  padding-right: 100px;
+  background-color: green;
+  padding: 2rem;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+</style>
