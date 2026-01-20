@@ -32,12 +32,31 @@
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: clamp(2rem, 5vw, 4rem);
   font-weight: bold;
 }
 
 .text-box {
-  margin-left: 2rem;
   max-width: 30ch;
+}
+
+.text-box p {
+  font-size: clamp(1rem, 2.5vw, 1.125rem);
+}
+
+@media (max-width: 768px) {
+  .omOs {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .omOs img {
+    max-width: 300px;
+    width: 100%;
+  }
+
+  .text-box {
+    max-width: 35ch;
+  }
 }
 </style>
