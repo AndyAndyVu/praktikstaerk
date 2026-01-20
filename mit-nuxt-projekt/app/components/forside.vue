@@ -1,3 +1,26 @@
+<script setup>
+const cards = [
+  {
+    id: 1,
+    title: "Simpelt abonnement",
+    text: "Vælg dine yndlingsretter automatisk.",
+    image: "/img/card-abonnement.png",
+  },
+  {
+    id: 2,
+    title: "Fleksibelt",
+    text: "Sæt på pause når som helst.",
+    image: "/img/card-fleksibel.png",
+  },
+  {
+    id: 3,
+    title: "Lokale restauranter",
+    text: "Støt lokale spisesteder.",
+    image: "/img/card-restaurant.png",
+  },
+];
+</script>
+
 <template>
   <section class="layout">
     <div class="Forside">
