@@ -60,8 +60,6 @@
 }
 
 .opret {
-  display: inline-flex;
-  align-items: center;
   gap: 0.5rem;
   padding: 1rem 1rem;
   border-radius: 25px;
