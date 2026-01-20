@@ -5,8 +5,8 @@ import { cards } from "~/data/cards";
 <template>
   <main>
     <Navdesk />
-    <forside />
-    <omos />
-    <Card v-for="card in cards" :key="card.id" v-bind="card" />
+    <Forside />
+    <Omos />
+    <Cards />
   </main>
 </template>
