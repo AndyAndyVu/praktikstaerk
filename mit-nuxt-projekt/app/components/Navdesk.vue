@@ -29,7 +29,17 @@
   padding-right: 100px;
   background-color: green;
   padding: 2rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
   color: white;
+  text-decoration: none;
 }
 
 a:hover {
