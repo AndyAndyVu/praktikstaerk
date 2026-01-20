@@ -44,7 +44,7 @@ h1 {
   font-size: clamp(1rem, 2.5vw, 1.125rem);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .omOs {
     flex-direction: column;
     text-align: center;
