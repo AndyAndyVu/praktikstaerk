@@ -1,0 +1,1 @@
+<template>Mobile navigation</template>
