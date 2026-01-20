@@ -55,7 +55,7 @@ const cards = [
   font-size: 1.2rem;
 }
 .logo {
-  width: 400px;
+  width: 300px;
 }
 .grid-billede {
   width: 30%;
