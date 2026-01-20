@@ -28,10 +28,44 @@
   text-align: center;
   width: 60%;
 }
+.text-forside p {
+  font-size: 1.2rem;
+}
 .logo {
   width: 400px;
 }
 .grid-billede {
   width: 30%;
+}
+
+@media (max-width: 800px) {
+  .layout {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Forside {
+    width: 100%;
+    padding: 3rem 1.5rem;
+  }
+
+  .logo {
+    width: 250px;
+  }
+
+  .text-forside p {
+    font-size: 1rem;
+  }
+
+  .knapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    font-size: 0.8rem;
+  }
+
+  .grid-billede {
+    display: none;
+  }
 }
 </style>
