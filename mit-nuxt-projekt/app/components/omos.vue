@@ -1,6 +1,6 @@
 <template>
   <section class="omOs">
-    <img src="../img/bestik.png" alt="gaffel ske" />
+    <Nuxtimg src="../img/bestik.png" alt="gaffel ske" />
     <div class="text-box">
       <h1>OM OS</h1>
       <p>
