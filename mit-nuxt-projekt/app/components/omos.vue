@@ -1,6 +1,6 @@
 <template>
   <section class="omOs">
-    <NuxtImg src=".." alt="gaffel ske" />
+    <NuxtImg src="/img/bestik.png" alt="gaffel ske" />
     <div class="text-box">
       <h1>OM OS</h1>
       <p>
