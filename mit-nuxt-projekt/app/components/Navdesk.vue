@@ -21,11 +21,10 @@
         </li>
       </ul>
     </nav>
-    <li>
-      <NuxtLink class="opret" to="/opret-bruger">
-        <img src="/img/login-ikon.png" alt="" /> Opret bruger</NuxtLink
-      >
-    </li>
+
+    <NuxtLink class="opret" to="/opret-bruger">
+      <img src="/img/login-ikon.png" alt="" /> Opret bruger</NuxtLink
+    >
   </header>
 </template>
 
@@ -60,6 +59,8 @@
 }
 
 .opret {
+  display: inline-flex;
+  align-items: center;
   gap: 0.5rem;
   padding: 1rem 1rem;
   border-radius: 25px;
